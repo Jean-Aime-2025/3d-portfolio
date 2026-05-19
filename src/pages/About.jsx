@@ -17,8 +17,9 @@ const About = () => {
 
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            Software Engineer based in Rwanda, specializing in technical
-            education through hands-on learning and building applications.
+            Software engineer from Rwanda passionate about building
+            modern web and mobile applications, solving real-world problems, and creating
+            smooth digital experiences.
           </p>
         </div>
 
@@ -45,8 +46,9 @@ const About = () => {
           <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
             <p>
-              Software Engineer based in Rwanda, specializing in technical
-              education through hands-on learning and building applications.
+              My journey includes developing personal projects, collaborating with
+              teams, and continuously improving my skills in frontend and backend
+              development.
             </p>
           </div>
 

@@ -26,6 +26,17 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import docker from './docker.png'
+import reactnative from './react-native.svg'
+import shadcnui from './shadcnui.png'
+import springboot from './springboot.png'
+import build from './buld.png'
+import expense from './expense.png'
+import grocery from './grocery.png'
+import saas from './saas.png'
+import recipe from './recipe.png'
+import sub from './sub.png'
+import ig from './ig.png'
 
 export {
     css,
@@ -55,5 +66,16 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    docker,
+    reactnative,
+    shadcnui,
+    springboot,
+    build,
+    expense,
+    grocery,
+    saas,
+    recipe,
+    sub,
+    ig
 }

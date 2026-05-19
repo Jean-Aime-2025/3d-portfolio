@@ -42,6 +42,16 @@ const Projects = () => {
                   {project.name}
                 </h4>
                 <p className='mt-2 text-slate-500'>{project.description}</p>
+                <div className="flex items-center flex-wrap gap-2 py-2">
+                  {project.tech?.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="text-xs border w-fit px-3 py-1 rounded-full bg-slate-100 text-slate-600 font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
                 <div className="flex items-center gap-9">
                   <div className='mt-5 flex items-center gap-2 font-poppins'>
                     <Link
@@ -50,7 +60,7 @@ const Projects = () => {
                       rel='noopener noreferrer'
                       className='font-semibold text-blue-600'
                     >
-                      Live Link
+                      Code
                     </Link>
                     <img
                       src={arrow}
@@ -60,7 +70,7 @@ const Projects = () => {
                   </div>
                   <div className='mt-5 flex items-center gap-2 font-poppins'>
                     <Link
-                      to={project.link}
+                      to={project.visit}
                       target='_blank'
                       rel='noopener noreferrer'
                       className='font-semibold text-blue-600'
