@@ -176,21 +176,6 @@ export const experiences = [
       'Collaborated with cross-functional teams to deliver a reliable digital platform for news and entertainment consumption.',
     ],
   },
-
-  {
-    id: 3,
-    title: 'Web Developer',
-    company_name: 'Freelancer',
-    icon: self,
-    iconBg: '#b7e4c7',
-    date: 'Jan 2022 - Present',
-    points: [
-      'Developed custom web applications for clients using modern JavaScript frameworks and technologies.',
-      'Built responsive and scalable frontend applications with a strong focus on clean UI/UX design.',
-      'Integrated REST APIs and third-party services into different web platforms.',
-      'Managed projects from development to deployment while ensuring performance and maintainability.',
-    ],
-  },
   {
     id: 4,
     title: 'React.js & React Native Developer',
