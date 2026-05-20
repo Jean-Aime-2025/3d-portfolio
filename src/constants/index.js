@@ -230,6 +230,7 @@ export const projects = [
     iconUrl: snapgram,
     theme: 'btn-back-blue',
     name: 'Zoom Clone',
+    type: 'web',
     description:
       'Built a real-time video conferencing web application using Next.js and Stream Video SDK, allowing users to create and join secure video meetings with authentication and scheduling features.',
     tech: [
@@ -248,6 +249,7 @@ export const projects = [
     iconUrl: recipe,
     theme: 'btn-back-yellow',
     name: 'AI Recipe Platform',
+    type: 'web',
     description:
       'Built a full-stack AI-powered recipe platform where users can generate, browse, and manage recipes using generative AI. The system includes authentication, content management, and a modern UI for a smooth user experience.',
     tech: [
@@ -271,6 +273,7 @@ export const projects = [
     iconUrl: expense,
     theme: 'btn-back-blue',
     name: 'Money Manager App',
+    type: 'web',
     description:
       'Built a full-stack personal finance management system that allows users to track income and expenses, visualize financial data, and manage transactions securely with authentication and reporting features.',
     tech: [
@@ -294,6 +297,7 @@ export const projects = [
     iconUrl: build,
     theme: 'btn-back-pink',
     name: 'iBuiltThis (Project Showcase Platform)',
+    type: 'web',
     description:
       'Built a modern community platform where creators can share, discover, and showcase their apps, AI tools, SaaS products, and creative projects. The platform supports project submissions, browsing feeds, and engagement between builders.',
     tech: [
@@ -315,6 +319,7 @@ export const projects = [
     iconUrl: estate,
     theme: 'btn-back-blue',
     name: 'Kribb',
+    type: 'mobile',
     description:
       'Built a modern real estate mobile application using React Native and Expo, allowing users to browse, save, and manage property listings with authentication, location features, and a clean user experience.',
     tech: [
@@ -334,6 +339,7 @@ export const projects = [
     iconUrl: sub,
     theme: 'btn-back-red',
     name: 'Recurrly',
+    type: 'mobile',
     description:
       'Built a mobile subscription management application that helps users track, organize, and analyze recurring payments in one place with a clean and intuitive interface.',
     tech: [
@@ -351,6 +357,7 @@ export const projects = [
     iconUrl: grocery,
     theme: 'btn-back-green',
     name: 'Grocify',
+    type: 'mobile',
     description:
       'Built a full-stack smart grocery list application that allows users to create, manage, and organize shopping lists efficiently with real-time syncing and secure authentication.',
     tech: [
@@ -370,6 +377,7 @@ export const projects = [
     iconUrl: saas,
     theme: 'btn-back-blue',
     name: 'Light SaaS Landing Page',
+    type: 'web',
     description:
       'Built a modern SaaS landing page with a clean light theme, focusing on conversion-driven UI design, responsive layout, and smooth animations for marketing and product presentation.',
     tech: [
@@ -378,7 +386,6 @@ export const projects = [
       'Tailwind CSS',
       'Framer Motion',
       'TypeScript',
-      'Component-based UI Architecture',
     ],
     link: 'https://github.com/Jean-Aime-2023/light-saas-landing-ui',
     visit: 'https://light-saas-landing-ui.vercel.app',
@@ -387,6 +394,7 @@ export const projects = [
     iconUrl: saas,
     theme: 'btn-back-black',
     name: 'Dark SaaS Landing Page',
+    type: 'web',
     description:
       'Built a modern dark-themed SaaS landing page template with smooth animations and responsive UI components designed for startups and product marketing websites.',
     tech: [
@@ -395,15 +403,15 @@ export const projects = [
       'Tailwind CSS',
       'Framer Motion',
       'TypeScript',
-      'Reusable UI Components',
     ],
     link: 'https://github.com/Jean-Aime-2023/Saas-UI',
     visit: 'https://saas-ui-eight.vercel.app/',
   },
   {
     iconUrl: saas,
-    theme: 'btn-back-yellow',
-    name: 'Travel Landing Page (Next.js)',
+    theme: 'btn-back-green',
+    name: 'Hilink',
+    type: 'web',
     description:
       'Built a modern travel landing page with a clean UI, focusing on destination browsing, responsive design, and smooth user experience for showcasing travel services.',
     tech: [
@@ -420,6 +428,7 @@ export const projects = [
     iconUrl: saas,
     theme: 'btn-back-red',
     name: 'Nike Landing Page',
+    type: 'web',
     description:
       'Built a modern Nike-inspired landing page with a strong focus on branding, animations, and responsive UI design for product marketing.',
     tech: [
@@ -427,25 +436,25 @@ export const projects = [
       'Vite',
       'Tailwind CSS',
       'Responsive UI',
-      'Component-based Architecture',
     ],
     link: 'https://github.com/Jean-Aime-2023/Nike-website',
     visit: 'https://golden-squirrel-895220.netlify.app/',
   },
   {
     iconUrl: saas,
-    theme: 'btn-back-blue',
-    name: 'Nike Landing Page',
+    theme: 'btn-back-yellow',
+    name: 'OU-Trips',
+    type: 'web',
     description:
-      'Built a modern Nike-inspired landing page with a strong focus on branding, animations, and responsive UI design for product marketing.',
+      'Built a modern travel and tour booking landing page with destination discovery, travel search, testimonials, FAQs, and responsive sections designed to deliver an engaging user experience.',
     tech: [
-      'React',
+      'React 18',
       'Vite',
-      'Tailwind CSS',
-      'Responsive UI',
-      'Component-based Architecture',
+      'AOS Animations',
+      'Responsive Design',
+      'UI/UX Design',
     ],
-    link: 'https://github.com/Jean-Aime-2023/Nike-website',
-    visit: 'https://golden-squirrel-895220.netlify.app/',
+    link: 'https://github.com/Jean-Aime-2023/travel-UI',
+    visit: 'https://travel-ui-five.vercel.app/',
   },
 ];
