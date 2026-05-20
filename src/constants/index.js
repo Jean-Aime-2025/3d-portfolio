@@ -332,7 +332,7 @@ export const projects = [
   },
   {
     iconUrl: sub,
-    theme: 'btn-back-pink',
+    theme: 'btn-back-red',
     name: 'Recurrly',
     description:
       'Built a mobile subscription management application that helps users track, organize, and analyze recurring payments in one place with a clean and intuitive interface.',
@@ -342,9 +342,7 @@ export const projects = [
       'Clerk Authentication',
       'Zustand',
       'PostHog Analytics',
-      'Dayjs',
       'NativeWind',
-      'React Navigation',
     ],
     link: 'https://github.com/Jean-Aime-2025/Recurrly',
     visit: '#',
@@ -364,7 +362,6 @@ export const projects = [
       'Zustand',
       'Sentry',
       'NativeWind',
-      'Expo Auth Session',
     ],
     link: 'https://github.com/Jean-Aime-2025/GROCIFY',
     visit: '#',
@@ -437,7 +434,7 @@ export const projects = [
   },
   {
     iconUrl: saas,
-    theme: 'btn-back-red',
+    theme: 'btn-back-blue',
     name: 'Nike Landing Page',
     description:
       'Built a modern Nike-inspired landing page with a strong focus on branding, animations, and responsive UI design for product marketing.',

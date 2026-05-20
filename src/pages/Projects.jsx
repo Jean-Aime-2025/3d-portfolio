@@ -69,14 +69,23 @@ const Projects = () => {
                     />
                   </div>
                   <div className='mt-5 flex items-center gap-2 font-poppins'>
-                    <Link
-                      to={project.visit}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='font-semibold text-blue-600'
-                    >
-                      Visit
-                    </Link>
+                    {project.visit && project.visit !== '#' ? (
+                      <Link
+                        to={project.visit}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='font-semibold text-blue-600'
+                      >
+                        Visit
+                      </Link>
+                    ) : (
+                      <Link
+                        to={`/projects/${project.name.toLowerCase().replace(/\s+/g, '-')}`}
+                        className='font-semibold text-blue-600'
+                      >
+                        View Details
+                      </Link>
+                    )}
                     <img
                       src={arrow}
                       alt='arrow'
