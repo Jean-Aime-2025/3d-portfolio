@@ -177,7 +177,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: 'React.js & React Native Developer',
     company_name: 'Mince Tech',
     icon: mince,
