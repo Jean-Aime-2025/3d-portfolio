@@ -228,7 +228,7 @@ export const projects = [
     ],
     link: 'https://github.com/Jean-Aime-2023/fullstack-zoom-clone',
     visit:
-      'https://fullstack-zoom-clone-3px03lfia-aimes-projects-dab472e3.vercel.app',
+      'https://fullstack-zoom-clone.vercel.app/',
   },
   {
     iconUrl: recipe,
@@ -252,7 +252,7 @@ export const projects = [
       'Sonner Notifications',
     ],
     link: 'https://github.com/Jean-Aime-2025/servd/tree/main/frontend',
-    visit: 'https://servd-seven-chi.vercel.app/',
+    // visit: 'https://servd-seven-chi.vercel.app/',
   },
   {
     iconUrl: expense,
