@@ -51,6 +51,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex items-center gap-9">
+                  {/* Code button — always shown */}
                   <div className='mt-5 flex items-center gap-2 font-poppins'>
                     <Link
                       to={project.link}
@@ -66,8 +67,10 @@ const Projects = () => {
                       className='w-4 h-4 object-contain'
                     />
                   </div>
-                  <div className='mt-5 flex items-center gap-2 font-poppins'>
-                    {project.visit && project.visit !== '#' ? (
+
+                  {/* Visit button — only if visit exists and isn't '#' */}
+                  {project.visit && project.visit !== '#' && (
+                    <div className='mt-5 flex items-center gap-2 font-poppins'>
                       <Link
                         to={project.visit}
                         target='_blank'
@@ -76,20 +79,13 @@ const Projects = () => {
                       >
                         Visit
                       </Link>
-                    ) : (
-                      <Link
-                        to={`/projects/${project.name.toLowerCase().replace(/\s+/g, '-')}`}
-                        className='font-semibold text-blue-600'
-                      >
-                        View Details
-                      </Link>
-                    )}
-                    <img
-                      src={arrow}
-                      alt='arrow'
-                      className='w-4 h-4 object-contain'
-                    />
-                  </div>
+                      <img
+                        src={arrow}
+                        alt='arrow'
+                        className='w-4 h-4 object-contain'
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
