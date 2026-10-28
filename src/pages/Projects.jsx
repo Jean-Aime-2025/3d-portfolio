@@ -68,7 +68,7 @@ const Projects = () => {
                     />
                   </div>
 
-                  {/* Visit button — only if visit exists and isn't '#' */}
+                  {/* Visit button — only when visit is a real URL */}
                   {project.visit && project.visit !== '#' && (
                     <div className='mt-5 flex items-center gap-2 font-poppins'>
                       <Link
@@ -78,6 +78,23 @@ const Projects = () => {
                         className='font-semibold text-blue-600'
                       >
                         Visit
+                      </Link>
+                      <img
+                        src={arrow}
+                        alt='arrow'
+                        className='w-4 h-4 object-contain'
+                      />
+                    </div>
+                  )}
+
+                  {/* View Details — only when visit === '#' */}
+                  {project.visit === '#' && (
+                    <div className='mt-5 flex items-center gap-2 font-poppins'>
+                      <Link
+                        to={`/projects/${project.name.toLowerCase().replace(/\s+/g, '-')}`}
+                        className='font-semibold text-blue-600'
+                      >
+                        View Details
                       </Link>
                       <img
                         src={arrow}
