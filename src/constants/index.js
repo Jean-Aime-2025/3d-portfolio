@@ -276,7 +276,7 @@ export const projects = [
       'Brevo Email API',
     ],
     link: 'https://github.com/Jean-Aime-2025/money-manager-client',
-    visit: 'https://money-manager-client-nine.vercel.app/',
+    // visit: 'https://money-manager-client-nine.vercel.app/',
   },
   {
     iconUrl: build,
